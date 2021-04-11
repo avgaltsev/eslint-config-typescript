@@ -45,8 +45,8 @@ export = {
 				// "@typescript-eslint/lines-between-class-members": "off",
 
 				// Disallow generic Array constructors
-				// "no-array-constructor": "off",
-				// "@typescript-eslint/no-array-constructor": "off",
+				"no-array-constructor": "off",
+				"@typescript-eslint/no-array-constructor": "error",
 
 				// Disallow duplicate class members
 				// "no-dupe-class-members": "off",
@@ -57,16 +57,16 @@ export = {
 				// "@typescript-eslint/no-duplicate-imports": "off",
 
 				// Disallow empty functions
-				// "no-empty-function": "off",
-				// "@typescript-eslint/no-empty-function": "off",
+				"no-empty-function": "off",
+				"@typescript-eslint/no-empty-function": "error",
 
 				// Disallow unnecessary parentheses
 				// "no-extra-parens": "off",
 				// "@typescript-eslint/no-extra-parens": "off",
 
 				// Disallow unnecessary semicolons
-				// "no-extra-semi": "off",
-				// "@typescript-eslint/no-extra-semi": "off",
+				"no-extra-semi": "off",
+				"@typescript-eslint/no-extra-semi": "error",
 
 				// Disallow the use of eval()-like methods
 				// "no-implied-eval": "off",
@@ -105,8 +105,8 @@ export = {
 				// "@typescript-eslint/no-unused-expressions": "off",
 
 				// Disallow unused variables
-				// "no-unused-vars": "off",
-				// "@typescript-eslint/no-unused-vars": "off",
+				"no-unused-vars": "off",
+				"@typescript-eslint/no-unused-vars": "warn",
 
 				// Disallow the use of variables before they are defined
 				// "no-use-before-define": "off",

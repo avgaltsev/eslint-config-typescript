@@ -5,7 +5,7 @@ export = {
 
 			rules: {
 				// Require that member overloads be consecutive
-				// "@typescript-eslint/adjacent-overload-signatures": "off",
+				"@typescript-eslint/adjacent-overload-signatures": "error",
 
 				// Requires using either T[] or Array<T> for arrays
 				// "@typescript-eslint/array-type": "off",
@@ -14,13 +14,13 @@ export = {
 				// "@typescript-eslint/await-thenable": "off",
 
 				// Bans @ts-<directive> comments from being used or requires descriptions after directive
-				// "@typescript-eslint/ban-ts-comment": "off",
+				"@typescript-eslint/ban-ts-comment": "error",
 
 				// Bans // tslint:<rule-flag> comments from being used
 				// "@typescript-eslint/ban-tslint-comment": "off",
 
 				// Bans specific types from being used
-				// "@typescript-eslint/ban-types": "off",
+				"@typescript-eslint/ban-types": "error",
 
 				// Ensures that literals on classes are exposed in a consistent style
 				// "@typescript-eslint/class-literal-property-style": "off",
@@ -44,7 +44,7 @@ export = {
 				// "@typescript-eslint/explicit-member-accessibility": "off",
 
 				// Require explicit return and argument types on exported functions' and classes' public class methods
-				// "@typescript-eslint/explicit-module-boundary-types": "off",
+				"@typescript-eslint/explicit-module-boundary-types": "warn",
 
 				// Require a specific member delimiter style for interfaces and type literals
 				// "@typescript-eslint/member-delimiter-style": "off",
@@ -71,13 +71,13 @@ export = {
 				// "@typescript-eslint/no-dynamic-delete": "off",
 
 				// Disallow the declaration of empty interfaces
-				// "@typescript-eslint/no-empty-interface": "off",
+				"@typescript-eslint/no-empty-interface": "error",
 
 				// Disallow usage of the any type
-				// "@typescript-eslint/no-explicit-any": "off",
+				"@typescript-eslint/no-explicit-any": "warn",
 
 				// Disallow extra non-null assertion
-				// "@typescript-eslint/no-extra-non-null-assertion": "off",
+				"@typescript-eslint/no-extra-non-null-assertion": "error",
 
 				// Forbids the use of classes as namespaces
 				// "@typescript-eslint/no-extraneous-class": "off",
@@ -92,25 +92,25 @@ export = {
 				// "@typescript-eslint/no-implicit-any-catch": "off",
 
 				// Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean
-				// "@typescript-eslint/no-inferrable-types": "off",
+				"@typescript-eslint/no-inferrable-types": "error",
 
 				// Disallows usage of void type outside of generic or return types
 				// "@typescript-eslint/no-invalid-void-type": "off",
 
 				// Enforce valid definition of new and constructor
-				// "@typescript-eslint/no-misused-new": "off",
+				"@typescript-eslint/no-misused-new": "error",
 
 				// Avoid using promises in places not designed to handle them
 				// "@typescript-eslint/no-misused-promises": "off",
 
 				// Disallow the use of custom TypeScript modules and namespaces
-				// "@typescript-eslint/no-namespace": "off",
+				"@typescript-eslint/no-namespace": "error",
 
 				// Disallows using a non-null assertion after an optional chain expression
-				// "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+				"@typescript-eslint/no-non-null-asserted-optional-chain": "error",
 
 				// Disallows non-null assertions using the ! postfix operator
-				// "@typescript-eslint/no-non-null-assertion": "off",
+				"@typescript-eslint/no-non-null-assertion": "warn",
 
 				// Disallow the use of parameter properties in class constructors
 				// "@typescript-eslint/no-parameter-properties": "off",
@@ -119,7 +119,7 @@ export = {
 				// "@typescript-eslint/no-require-imports": "off",
 
 				// Disallow aliasing this
-				// "@typescript-eslint/no-this-alias": "off",
+				"@typescript-eslint/no-this-alias": "error",
 
 				// Disallow the use of type aliases
 				// "@typescript-eslint/no-type-alias": "off",
@@ -158,13 +158,13 @@ export = {
 				// "@typescript-eslint/no-unsafe-return": "off",
 
 				// Disallows the use of require statements except in import statements
-				// "@typescript-eslint/no-var-requires": "off",
+				"@typescript-eslint/no-var-requires": "error",
 
 				// Prefers a non-null assertion over explicit type cast when possible
 				// "@typescript-eslint/non-nullable-type-assertion-style": "off",
 
 				// Prefer usage of as const over literal type
-				// "@typescript-eslint/prefer-as-const": "off",
+				"@typescript-eslint/prefer-as-const": "error",
 
 				// Prefer initializing each enums member value
 				// "@typescript-eslint/prefer-enum-initializers": "off",
@@ -182,7 +182,7 @@ export = {
 				// "@typescript-eslint/prefer-literal-enum-member": "off",
 
 				// Require the use of the namespace keyword instead of the module keyword to declare custom TypeScript modules
-				// "@typescript-eslint/prefer-namespace-keyword": "off",
+				"@typescript-eslint/prefer-namespace-keyword": "error",
 
 				// Enforce the usage of the nullish coalescing operator instead of logical chaining
 				// "@typescript-eslint/prefer-nullish-coalescing": "off",
@@ -230,7 +230,7 @@ export = {
 				// "@typescript-eslint/switch-exhaustiveness-check": "off",
 
 				// Sets preference level for triple slash directives versus ES6-style import declarations
-				// "@typescript-eslint/triple-slash-reference": "off",
+				"@typescript-eslint/triple-slash-reference": "error",
 
 				// Require consistent spacing around type annotations
 				// "@typescript-eslint/type-annotation-spacing": "off",
